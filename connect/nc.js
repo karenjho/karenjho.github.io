@@ -8,8 +8,6 @@ $(document).on('ready', function() {
 
     // Count the turns taken
     var turn = 0;
-    // Calculate the minimum number of turns needed to win
-    var minWinningTurn = ( gameBoard * 2 ) - 1;
 
     // When someone clicks a cell, define the function when the click event occurs
     // .one() only allows the event function to be performed once
@@ -36,9 +34,7 @@ $(document).on('ready', function() {
       }
 
       // Figure out whether the turn was a winning one
-      if (turn >= minWinningTurn ) {
-        checkWinningTurn(gameBoard);
-      }
+      checkWinningTurn(gameBoard);
 
       turn++; // Increment the turn counter
     });
