@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Karen Ho"
 date:   2016-03-29 14:37:59 -0400
 categories: jekyll update
 ---

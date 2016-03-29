@@ -8,25 +8,35 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    float: left;
+    height: 100vh;
+    width: 40%;
+    background-color: $brand-color;
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
+    font-family: $logo-font-family;
+    font-size: 7.9rem;
+    font-weight: $logo-font-weight;
+    line-height: $logo-line-height;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: right;
+    text-align: right;
+    position: relative;
+    right: -6px;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $background-color;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+    margin-top: 1rem;
+    margin-right: 1rem;
 
     .menu-icon {
         display: none;

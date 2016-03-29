@@ -160,8 +160,10 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
+    padding-right: 0;
     padding-left: $spacing-unit;
+    position: relative;
+    top: 25%;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
