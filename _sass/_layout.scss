@@ -9,24 +9,31 @@
     float: left;
     height: 100vh;
     width: 40%;
+    max-width: 400px;
     background-color: $brand-color;
 }
 
-.site-title {
-    font-family: $logo-font-family;
-    font-size: 7.3rem;
-    font-weight: $logo-font-weight;
-    line-height: $logo-line-height;
-    letter-spacing: -7px;
-    margin-bottom: 0;
-    float: right;
-    text-align: right;
-    position: relative;
-    right: -2px;
+.logo {
+    display: block;
+    width: 100%;
+    @extend %clearfix;
 
-    &,
-    &:visited {
-        color: $background-color;
+    .site-title {
+        font-family: $logo-font-family;
+        font-size: 7.3rem;
+        font-weight: $logo-font-weight;
+        line-height: $logo-line-height;
+        letter-spacing: -7px;
+        float: right;
+        width: 18rem;
+        text-align: right;
+        position: relative;
+        right: -2px;
+
+        &,
+        &:visited {
+            color: $background-color;
+        }
     }
 }
 
@@ -186,6 +193,13 @@
 /**
  * Page content
  */
+
+.main-content {
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: 12%;  
+}
+
 .page-content {
     padding: $spacing-unit 0;
 }
