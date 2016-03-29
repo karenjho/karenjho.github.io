@@ -1,15 +1,9 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I love working with people, code, and data. My background in analysis and marketing has taught me how to tease out the critical facts from data, and how to turn those facts into stories. I’m interested in web development opportunities where I can help others share their lives and work in meaningful ways.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I also bake a killer pumpkin pie. (Ask me about the secret in the crust.)
