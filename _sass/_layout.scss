@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -16,15 +14,15 @@
 
 .site-title {
     font-family: $logo-font-family;
-    font-size: 7.9rem;
+    font-size: 7.3rem;
     font-weight: $logo-font-weight;
     line-height: $logo-line-height;
-    letter-spacing: -1px;
+    letter-spacing: -7px;
     margin-bottom: 0;
     float: right;
     text-align: right;
     position: relative;
-    right: -6px;
+    right: -2px;
 
     &,
     &:visited {
@@ -34,21 +32,32 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 2rem;
     margin-top: 1rem;
     margin-right: 1rem;
+    text-align: right;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $background-color;
         line-height: $base-line-height;
+        font-weight: 300;
+        font-size: 1.1rem;
 
         // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        // &:not(:last-child) {
+        //     margin-right: 20px;
+        // }
+    }
+
+    .social-media-list {
+
+        &,
+        &:active {
+          color: $background-color;
         }
     }
 
